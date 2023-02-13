@@ -6,7 +6,7 @@
 
 </center>
 
-The boilerplate for making electron applications built with vue (pretty much what it sounds like).
+The boilerplate for making electron applications built with Vue 3.
 
 ## How to use:
 
@@ -42,7 +42,7 @@ The aim of this project is to remove the need of manually setting up electron-fo
 Things you'll find in this boilerplate:
 
 - Basic project structure with a single package.json setup
-- Ready to use vue-router
+- Ready to use `vue-router`
 - Preconfigured webpack:
   - `babel-loader` for `.js`
   - `vue-loader` for `.vue`
