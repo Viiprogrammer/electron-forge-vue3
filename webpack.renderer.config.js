@@ -1,6 +1,5 @@
 const rules = require('./webpack.rules')
 const { VueLoaderPlugin } = require('vue-loader')
-const path = require('path')
 
 module.exports = {
   // Put your normal webpack config below here
