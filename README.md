@@ -39,6 +39,34 @@ npm run start
 
 The aim of this project is to remove the need of manually setting up electron-forge + vue apps.
 
+Project structire:
+```
+.
+├── forge.config.js
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── main
+│   │   └── main.js
+│   └── renderer
+│       ├── components
+│       │   └── App.vue
+│       ├── index.html
+│       ├── preload.js
+│       ├── renderer.js
+│       ├── router
+│       │   └── index.js
+│       ├── style
+│       │   └── index.css
+│       └── views
+│           └── HomeView.vue
+├── webpack.main.config.js
+├── webpack.renderer.config.js
+├── webpack.rules.js
+└── yarn.lock
+```
+
 Things you'll find in this boilerplate:
 
 - Basic project structure with a single package.json setup
