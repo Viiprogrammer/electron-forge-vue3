@@ -39,7 +39,7 @@ npm run start
 
 The aim of this project is to remove the need of manually setting up electron-forge + vue apps.
 
-Project structire:
+Project structure:
 ```
 .
 ├── forge.config.js
